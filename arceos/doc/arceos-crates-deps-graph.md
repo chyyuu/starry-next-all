@@ -156,6 +156,7 @@
 
 这14个模块形成了一个层次清晰、职责分明的操作系统架构，通过精心设计的接口相互协作，支持系统的可扩展性、可维护性和模块化定制。
 
+```mermaid
 graph TD
   axhal
   axalloc --> axhal
@@ -188,3 +189,5 @@ graph TD
   axsync --> axtask
   axtask --> axhal
   axconfig
+```  
+
